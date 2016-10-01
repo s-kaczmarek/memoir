@@ -1,9 +1,9 @@
 # memoir
 
 memoir is a shell script written in python which is minimal diary for making quick notes while working in terminal.
-This is a fork of original memoir written by thomasdziedzic
-link to original repository: https://github.com/thomasdziedzic/memoir
-I found this idea very useful, but I missed function of reading notes bu running memoir with argument, and quick deleting all notes
+This is a fork of original memoir written by thomasdziedzic  
+link to original repository: https://github.com/thomasdziedzic/memoir  
+I found this idea very useful, but I missed function of reading notes by running memoir with argument, and quick deleting all notes
 
 ## Installation
 
@@ -49,23 +49,3 @@ sudo bash uninstall.sh
 
 best regards,
 Sławek Kaczmarek
-
-
-memoir is intended to be a minimal cli diary.
-
-Usage:
-Run memoir by typing 'm' into a terminal.
-Type out your memoir, and it will write the entry to '~/.memoir' and exit as soon as an empty line is encountered.
-If the first line is empty, it wont write the entry.
-You can also send a SIGINT to exit the program without side effects.
-
-Alternatively, you can run 'm' with any number of arguments.
-Once you run 'm' with the arguments, it will automatically add a one line entry to '~/.memoir'.
-
-Format of '~/.memoir':
-date
-entry
-Entries are seperated by a line of dashes.
-
-Dependencies:
-python3
