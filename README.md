@@ -47,5 +47,5 @@ sudo bash uninstall.sh
 - python3
 - cat
 
-best regards,
+best regards,  
 Sławek Kaczmarek
