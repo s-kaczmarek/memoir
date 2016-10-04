@@ -5,10 +5,11 @@ import os
 import sys
 
 def help():
-    print ("memoir is a minimal cli diary")
-    print ("run script with -r argument to read notes")
-    print ("run script with -c argument to clear notes file")
-    print ("run script with -h argument for help")
+    print ("memoir is a minimal diary")
+    print ("run script with arguments:")
+    print ("    -r  to read notes")
+    print ("    -c  to clear notes file")
+    print ("    -h  for help")
 
 # add the current local time to the entry header
 lines = [ time.asctime() + '\n' + '------------------------\n' + '\n' ]
@@ -61,8 +62,3 @@ if len( lines ) > 1:
 
     with open( memoir_path, 'a' ) as f:
         f.writelines( lines )
-
-if len(sys.argv) >= 2:
-    # clear .memoir file
-    if sys.argv[1] == '-c':
-        os.system('> ~/.memoir')
