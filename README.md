@@ -34,10 +34,10 @@ sudo bash uninstall.sh
 
 ## How it works
 
-* script is installed in ```/usr/bin/``` location as m file.
+* script is installed in ```/usr/local/bin/``` location as ```m``` file.
 * you can run script by typing ```m``` in termianl.
 * after first run script will create .memoir file in your user home directory ```~/.memoir``` which will store all notes.
-* when the cript is running you can make your notes untill you press enter twice. After that note will be saved and program ends. If the first line is empty, it wont write the entry.
+* when the cript is running you can make your notes untill you press enter twice. After that, note will be saved and program ends. If the first line is empty, it wont write the entry.
 * run script with -r argument to read notes: ```m -r```
 * run script with -c argument to clear notes file: ```m -c```
 * run script with -h argument for help: ```m -h```

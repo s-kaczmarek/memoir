@@ -5,12 +5,18 @@ import os
 import sys
 
 def help():
-    print ("memoir is a minimal diary")
+    print ("memoir is a minimal CLI diary")
+    print ("")
+    print ("type m to run script and start making notes")
+    print ("")
     print ("run script with arguments:")
+    print ("")
     print ("    -r  to read notes")
     print ("    -c  to clear notes file")
     print ("    -h  for help")
-
+    print ("")
+    print ("scrip is installed in location: /usr/local/bin/m ")
+    print ("file with notes is located in: ~/.memoir")
 # add the current local time to the entry header
 lines = [ time.asctime() + '\n' + '------------------------\n' + '\n' ]
 
